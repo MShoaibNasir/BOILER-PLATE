@@ -112,25 +112,9 @@ li {
 
 
 /* =============header start======================== */
-.header::before {
-    content: "";
-    width: 100%;
-    height: 0.3rem;
-    background-color: var(--para-tint);
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 
-.header .grid {
-    padding: 1.5rem 0;
-    align-items: center;
 
-}
 
-.header .grid-two-column {
-    grid-template-columns: 1fr 2fr;
-}
 .btn {
     padding: 1rem 2rem;
     font-size: 1.4rem;
